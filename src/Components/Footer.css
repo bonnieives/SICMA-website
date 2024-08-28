@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Kollektiv';
+    src: url('../Assets/Fonts/kollektif/Kollektif-Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    background-color: #8D9376;
+    color: #FFF;
+    font-family: 'Kollektiv', sans-serif;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3em;
+}

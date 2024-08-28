@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Kollektiv';
+    src: url('../Assets/Fonts/kollektif/Kollektif-Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: bold;
+    font-style: normal;
+}
+
+.parceiros-div {
+    margin: 2em 0;
+    padding: 0 2em;
+    border: 1px solid red;
+}
+
+.parceiros-top {
+    position: relative;
+    height: 10em;
+}
+
+.horizontal-line {
+    bottom: 50%;
+    position: absolute;
+    margin-right: 2em;
+    margin: 0;
+    padding: 50%;
+    border-bottom: 1px solid #8D9376;
+}
+
+.parceiros-title {
+    position: absolute;
+    bottom: 20%;
+    box-sizing: border-box;
+    width: fit-content;
+    font-family: 'Kollektiv', sans-serif;
+    font-size: 1.1em;
+    margin: 0 1em;
+}
+
+.parceiros-title h1 {
+    padding: 5px 2em;
+    background-color: #8D9376;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.8);;
+    border-radius: 10px;
+    color: white;
+}
+
+.caroussel {
+    display: flex;
+    flex-direction: row;
+}
