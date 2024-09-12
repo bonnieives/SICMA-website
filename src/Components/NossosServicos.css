@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Kollektiv';
+    src: url('../Assets/Fonts/kollektif/Kollektif-Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: bold;
+    font-style: normal;
+}
+
+.parceiros-horizontal-line {
+    bottom: 50%;
+    position: absolute;
+    margin-right: 2em;
+    margin: 0;
+    padding: 50%;
+    border-bottom: 1px solid #8D9376;
+}

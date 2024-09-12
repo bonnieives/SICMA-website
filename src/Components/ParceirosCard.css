@@ -36,3 +36,9 @@
     font-family: 'Kollektiv', sans-serif;
     overflow-wrap: break-word;
 }
+
+.news-bottom-line {
+    width: 100%;
+    border: 1px solid #939B7C;
+    height: 0;
+}

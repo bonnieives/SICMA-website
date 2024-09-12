@@ -6,7 +6,7 @@ function Parceiros() {
     return (
         <div className='parceiros-div'>
             <div className='parceiros-top'>
-                <div className='horizontal-line'></div>
+                <div className='parceiros-horizontal-line'></div>
                 <div className='parceiros-title'>
                     <h1>Nossos Parceiros</h1>
                 </div>
