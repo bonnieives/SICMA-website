@@ -22,7 +22,7 @@ const LocationApi = () => {
     };
 
     return (
-        <LoadScript googleMapsApiKey="AIzaSyA9odQv6ZF_Qazr8dpn4m14Q29QuTURvSQ">
+        <LoadScript googleMapsApiKey="">
             <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={15}
