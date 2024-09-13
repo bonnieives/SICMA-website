@@ -13,16 +13,12 @@ function HomePage(){
 function App() {
   return (
     <Router>
-           <div className="App">
-            <Navbar />
-        </div>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
         <Footer />
-
     </Router>
-
   );
 }
 

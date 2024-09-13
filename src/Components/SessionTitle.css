@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Kollektiv';
+    src: url('../Assets/Fonts/kollektif/Kollektif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.session-title-div {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 4em 0;
+}
+
+.session-horizontal-line {
+    border: none;
+    border-top: 1px solid #8D9376;
+    width: 100%;
+    margin: 0;
+}
+
+.session-header-title {
+    display: inline-block;
+    color: white;
+    background-color: #8D9376;
+    border-radius: 10px;
+    padding: 0.2em 1em;
+    font-size: 2.5vw;
+    width: 25%;
+    font-family: 'Kollektiv', sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: -1.4em;
+    left: 16.5%;
+    transform: translateX(-50%);
+    z-index: 1; 
+    white-space: nowrap;
+}

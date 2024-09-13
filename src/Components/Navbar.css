@@ -41,6 +41,7 @@
 
 .navbar-links li a:hover {
     color: #A1A68D;
+    cursor: pointer;
 }
 
 .icons-div {
@@ -54,4 +55,8 @@
 .icons-logo {
     width: 20%;
     cursor: pointer;
+}
+
+.icons-logo:hover {
+    width: 22%;
 }

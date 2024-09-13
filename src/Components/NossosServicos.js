@@ -1,6 +1,7 @@
 import React from 'react';
 import './NossosServicos.css';
 import NossosServicosCard from './NossosServicosCard';
+import SessionTitle from './SessionTitle';
 
 import img1 from "../Assets/Icons/icons8-book-64.png";
 import img2 from "../Assets/Icons/icons8-environment-care-100.png";
@@ -10,12 +11,7 @@ import img4 from "../Assets/Icons/icons8-training-100.png";
 function NossosServicos() {
     return (
         <div className='parceiros-div'>
-            <div className='parceiros-top'>
-                <div className='parceiros-horizontal-line'></div>
-                <div className='parceiros-title'>
-                    <h1>Nossos serviços</h1>
-                </div>
-            </div>
+            <SessionTitle title='Nossos serviços' />
             <div className='caroussel'>
                 <NossosServicosCard
                     image={img1}

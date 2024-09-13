@@ -1,16 +1,12 @@
 import React from 'react';
 import './AreasDeAtuacao.css';
 import AreasDeAtuacaoCard from './AreasDeAtuacaoCard';
+import SessionTitle from './SessionTitle';
 
 function AreasDeAtuacao() {
     return (
         <div className='areas-div'>
-            <div className='areas-top'>
-                <div className='horizontal-line'></div>
-                <div className='areas-title'>
-                    <h1>Áreas de Atuação</h1>
-                </div>
-            </div>
+            <SessionTitle title='Áreas de Atuação'/>
             <div className='areas-de-atuacao-container'>
                 <AreasDeAtuacaoCard
                 title='Infraestrutura'
