@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import './NewsApi.css';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css'; // Import carousel styles
 
-function PostList() {
+function PostList(props) {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -53,6 +55,40 @@ function PostList() {
             });
     };
 
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 4,
+            slidesToSlide: 1
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+            slidesToSlide: 1
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            slidesToSlide: 1
+        }
+    };
+
+    const CustomRightArrow = ({ onClick }) => {
+        return (
+            <button className="custom-arrow right-arrow" onClick={onClick}>
+                &#10095; {/* Right arrow symbol */}
+            </button>
+        );
+    };
+
+    const CustomLeftArrow = ({ onClick }) => {
+        return (
+            <button className="custom-arrow left-arrow" onClick={onClick}>
+                &#10094; {/* Left arrow symbol */}
+            </button>
+        );
+    };
+
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error.message}</div>;
 
@@ -64,22 +100,41 @@ function PostList() {
                     <h1>Para se informar</h1>
                 </div>
             </div>
+
             {Array.isArray(posts) ? (
-                <ul className="news-div">
+                <Carousel
+                    swipeable={true}
+                    draggable={true}
+                    showDots={false}
+                    responsive={responsive}
+                    ssr={false}
+                    infinite={true}
+                    autoPlay={props.deviceType !== "mobile"}
+                    autoPlaySpeed={5000}
+                    customTransition="transform 0.5s ease-in-out"
+                    transitionDuration={500}
+                    centerMode={false}
+                    containerClass="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    itemClass="carousel-item-padding-40-px"
+                    customRightArrow={<CustomRightArrow />}
+                    customLeftArrow={<CustomLeftArrow />}
+                >
                     {posts.map((post, index) => (
-                        <li key={index} className="news-item">
+                        <div key={index} className="news-item"> {/* Each post is a separate carousel item */}
                             <a href={post.link} target="_blank" rel="noopener noreferrer" className="news-link">
                                 {post.image_url && (
                                     <img src={post.image_url} alt={post.title} className="news-image" />
                                 )}
                                 <p>{post.title}</p>
                             </a>
-                        </li>
+                        </div>
                     ))}
-                </ul>
+                </Carousel>
             ) : (
                 <div>Error: Posts data is not an array</div>
             )}
+
             <div className="news-bottom-line"></div>
         </div>
     );
