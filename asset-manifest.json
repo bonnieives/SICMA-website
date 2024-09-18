@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/sicma-website/static/css/main.e74dca94.chunk.css",
+    "main.js": "/sicma-website/static/js/main.4d41aaa3.chunk.js",
+    "main.js.map": "/sicma-website/static/js/main.4d41aaa3.chunk.js.map",
+    "runtime-main.js": "/sicma-website/static/js/runtime-main.148534be.js",
+    "runtime-main.js.map": "/sicma-website/static/js/runtime-main.148534be.js.map",
+    "static/css/2.9bd6c941.chunk.css": "/sicma-website/static/css/2.9bd6c941.chunk.css",
+    "static/js/2.382d84c8.chunk.js": "/sicma-website/static/js/2.382d84c8.chunk.js",
+    "static/js/2.382d84c8.chunk.js.map": "/sicma-website/static/js/2.382d84c8.chunk.js.map",
+    "static/js/3.c2db4683.chunk.js": "/sicma-website/static/js/3.c2db4683.chunk.js",
+    "static/js/3.c2db4683.chunk.js.map": "/sicma-website/static/js/3.c2db4683.chunk.js.map",
+    "index.html": "/sicma-website/index.html",
+    "precache-manifest.01b364052030bfa50066ef3b5c3fab29.js": "/sicma-website/precache-manifest.01b364052030bfa50066ef3b5c3fab29.js",
+    "service-worker.js": "/sicma-website/service-worker.js",
+    "static/css/2.9bd6c941.chunk.css.map": "/sicma-website/static/css/2.9bd6c941.chunk.css.map",
+    "static/css/main.e74dca94.chunk.css.map": "/sicma-website/static/css/main.e74dca94.chunk.css.map",
+    "static/js/2.382d84c8.chunk.js.LICENSE.txt": "/sicma-website/static/js/2.382d84c8.chunk.js.LICENSE.txt",
+    "static/media/Ethics-renewables.webp": "/sicma-website/static/media/Ethics-renewables.37f3a56c.webp",
+    "static/media/LocationDiv.css": "/sicma-website/static/media/Kollektif.4d49be6e.ttf",
+    "static/media/R.jpg": "/sicma-website/static/media/R.80b57904.jpg",
+    "static/media/AreasDeAtuacao.css": "/sicma-website/static/media/elderly-person-children-holding-plant.0631cb9f.jpg",
+    "static/media/logo.svg": "/sicma-website/static/media/logo.06e73328.svg",
+    "static/media/pexels-obviouslyarthur-1296265.jpg": "/sicma-website/static/media/pexels-obviouslyarthur-1296265.3a943ce1.jpg",
+    "static/media/styles.css": "/sicma-website/static/media/revicons.2feb69cc.eot",
+    "static/media/tree-5102896_1280.jpg": "/sicma-website/static/media/tree-5102896_1280.6cd54c0f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.148534be.js",
+    "static/css/2.9bd6c941.chunk.css",
+    "static/js/2.382d84c8.chunk.js",
+    "static/css/main.e74dca94.chunk.css",
+    "static/js/main.4d41aaa3.chunk.js"
+  ]
+}
